@@ -1,7 +1,7 @@
 Sample Pipeline
 ===============
 
-This repo contains a sample Pipeline for Jenkins. Required is the following:
+This repo helps to install Jenkins and the very first simple Pipeline. Just follow these steps:
 
 1. **Install Jenkins** v2.303.3 or newer.
    - For Linux snaps execute: `snap install --beta --classic jenkins`
