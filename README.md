@@ -11,6 +11,7 @@ This repo helps to install Jenkins and the very first simple Pipeline. Just foll
 4. Click on **'Select plugins to install'** and add these plugins:
    - 'Build Name and Description Setter'
    - then click **Install** and wait until installation has finished.
-
-5. Click 'Create element', then choose 'Pipeline'.
-6. Click on 'Build now'
+5. **Create the admin account** by entering name, password (twice), and full name.
+6. **Enter your Jenkins URL**
+7. Click **'Create element'**, then choose 'Pipeline'.
+8. Click on 'Build now'
