@@ -10,7 +10,8 @@ This repo helps to install [Jenkins](https://jenkins.io) and the very first [Pip
    - Otherwise download and install it from: https://jenkins.io/download
 
 2. **Browse to Jenkins**
-   - Launch your Web browser and enter: http://HOSTNAME:8080 (replace HOSTNAME by the computer name where Jenkins has been installed)
+   - Launch your Web browser and enter: http://HOSTNAME:8080
+   - (replace HOSTNAME by the computer name where Jenkins has been installed)
 
 3. **Unlock Jenkins** 
    - Execute `sudo cat /DISPLAYED/PATH/TO/initialAdminPassword` to show the admin password
