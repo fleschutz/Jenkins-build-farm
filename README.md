@@ -20,7 +20,9 @@ This repo helps to install [Jenkins](https://jenkins.io) and the very first [Pip
    - 'Build Name and Description Setter'
    - then click **Install** and wait until installation has finished.
 
-5. **Create the admin account** by entering name, password (twice), and full name.
+5. **Create the admin account**
+   - Enter the name, password (twice), and full name.
+
 6. **Enter your Jenkins URL**
 7. Click **'Create element'**, then choose 'Pipeline'.
 8. Click on 'Build now'
