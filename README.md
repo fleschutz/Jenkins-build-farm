@@ -5,7 +5,8 @@ This repo helps to install [Jenkins](https://jenkins.io) and the very first [Pip
 
 1. **Install Jenkins**
    - Required is version 2.337 or newer
-   - For Linux snaps execute: `sudo snap install --edge --classic jenkins`
+   - For Snaps execute: `sudo snap install --edge --classic jenkins`
+   - For Docker execute: `docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11`
    - Otherwise download and install it from: https://jenkins.io/download
 
 2. **Launch Jenkins**
