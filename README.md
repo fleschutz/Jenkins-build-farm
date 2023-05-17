@@ -14,8 +14,8 @@ This repo helps to install [Jenkins](https://jenkins.io) and the very first [Pip
    - (replace HOSTNAME by the computer name where Jenkins has been installed)
 
 3. **Unlock Jenkins** 
-   - Execute `sudo cat /DISPLAYED/PATH/TO/initialAdminPassword` to show the admin password
-   - Enter the admin password to unlock Jenkins
+   - Execute `sudo cat /DISPLAYED/PATH/TO/initialAdminPassword` to display the initial password
+   - Enter the initial password to unlock Jenkins
 
 4. **Install Plugins**
    - Click on **'Select plugins to install'** and add these plugins:
