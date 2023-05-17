@@ -9,8 +9,8 @@ This repo helps to install [Jenkins](https://jenkins.io) and the very first [Pip
    - For Docker execute: `docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11`
    - Otherwise download and install it from: https://jenkins.io/download
 
-2. **Launch Jenkins**
-   - Then browse with your Web browser to: http://MYCOMPUTERNAME:8080
+2. **Browse to Jenkins**
+   - Launch your Web browser and enter: http://HOSTNAME:8080 (replace HOSTNAME by the computer name where Jenkins has been installed)
 
 3. **Unlock Jenkins** 
    - Execute `sudo cat /DISPLAYED/PATH/TO/initialAdminPassword` to show the admin password
@@ -22,7 +22,7 @@ This repo helps to install [Jenkins](https://jenkins.io) and the very first [Pip
    - then click **Install** and wait until installation has finished.
 
 5. **Create the admin account**
-   - Enter the name, password (twice), and full name.
+   - Enter the username, password (twice), and the full name.
 
 6. **Enter your Jenkins URL**
 7. Click **'Create element'**, then choose 'Pipeline'.
