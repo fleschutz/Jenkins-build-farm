@@ -1,7 +1,7 @@
 Sample Jenkins Pipeline
 =======================
 
-This repo helps to install Jenkins and the very first simple build pipeline for CI/CD. Just follow these steps:
+This repo helps to install Jenkins and the sample Pipeline 'Hello World' for continuous integration (CI/CD). Just follow these steps:
 
 1. **Install Jenkins**
    - Required is version 2.337 or newer
