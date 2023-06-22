@@ -13,11 +13,11 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
    - Launch your Web browser and enter: http://HOSTNAME:8080
    - (replace HOSTNAME by the computer name where Jenkins has been installed)
 
-3. **Unlock Jenkins** 
+3. **Unlock your Jenkins server** 
    - Execute `sudo cat /DISPLAYED/PATH/TO/initialAdminPassword` to display the initial password
    - Enter the initial password to unlock Jenkins
 
-4. **Install Plugins**
+4. **Install Jenkins Plugins**
    - Click on **'Select plugins to install'** and add these plugins:
    - 'Build Name and Description Setter'
    - then click **Install** and wait until installation has finished.
