@@ -4,7 +4,7 @@ Sample Pipeline 'Hello World' for Jenkins
 This repo contains step-by-step instructions to install [Jenkins](https://jenkins.io) and the very first [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for continuous integration and deployment (CI/CD).
 
 1. **Install Jenkins**
-   - Required is version 2.337 or newer
+   - NOTE: Required is version 2.337 or newer (supporting Pipelines)
    - For Snaps execute: `sudo snap install --edge --classic jenkins`
    - For Docker execute: `docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11`
    - Otherwise download and install it from: https://jenkins.io/download
