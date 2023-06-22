@@ -9,7 +9,7 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
    - For Docker execute: `docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11`
    - Otherwise download and install it from: https://jenkins.io/download
 
-2. **Browse to Jenkins**
+2. **Browse to your Jenkins server**
    - Launch your Web browser and enter: http://HOSTNAME:8080
    - (replace HOSTNAME by the computer name where Jenkins has been installed)
 
