@@ -1,5 +1,5 @@
-Sample Jenkins Pipeline 'Hello World'
-=====================================
+Sample Pipeline 'Hello World' for Jenkins
+=========================================
 
 This repo contains step-by-step instructions to install [Jenkins](https://jenkins.io) and the very first [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for continuous integration and deployment (CI/CD).
 
