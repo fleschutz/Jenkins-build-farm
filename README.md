@@ -28,3 +28,11 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
 6. **Enter your Jenkins URL**
 7. Click **'Create element'**, then choose 'Pipeline'.
 8. Click on 'Build now'
+
+📧 Feedback
+------------
+Send your email feedback to: markus.fleschutz [at] gmail.com
+
+🤝 License & Copyright
+-----------------------
+This open source project is licensed under the CC0 license. All trademarks are the property of their respective owners.
