@@ -10,11 +10,11 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
 
    NOTE: Pipeline support has been introduced in Jenkins version 2.337 or newer.
 
-3. **Browse to your Jenkins server**
-   - Launch your Web browser and enter the URL: http://HOSTNAME:8080  (replace HOSTNAME by the computer name where Jenkins has been installed)
+3. **Browse to your new Jenkins server**
+   Launch your Web browser and enter the URL: http://HOSTNAME:8080  (replace HOSTNAME by the computer name where Jenkins has been installed)
 
 4. **Unlock Jenkins** 
-   - Execute `sudo cat /DISPLAYED/PATH/TO/initialAdminPassword` to display the initial password.
+   - Execute `sudo cat /DISPLAYED/PATH/TO/initialAdminPassword` to display the initial password saved by Jenkins.
    - Enter the initial password to unlock Jenkins.
 
 5. **Install necessary Plugins**
