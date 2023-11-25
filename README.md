@@ -1,7 +1,7 @@
 How to install Jenkins and a Pipeline
 =====================================
 
-This repo contains step-by-step instructions to install [Jenkins](https://jenkins.io) and your first sample [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for continuous integration and deployment (CI/CD).
+This repo contains simple step-by-step instructions to install [Jenkins](https://jenkins.io) and your first sample [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for continuous integration and deployment (CI/CD).
 
 1. **Install the Jenkins server**   
    - For Snaps execute: `sudo snap install --edge --classic jenkins`
@@ -31,15 +31,15 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
    - Afterward, enter your Jenkins URL and log in.
      
 8. **Create a Pipeline**
-   - Click on **+ Create element** (left side).
+   - In the dashboard click on: **+ Create element** (on left side).
    - Enter a job name (e.g. "sample-pipeline") and select **Pipeline**, then press the OK button.
    - The job configuration is displayed now - scroll down and select the **Pipeline script**.
    - As script enter the content of the **Jenkinsfile** (attached to this repository).
    - Click the **Save** button.
      
 9. **Start a Pipeline Job**
-   - Click on **Dashboard** (left side).
-   - In your job list press the green **Play** button (right side).
+   - Click on **Dashboard** (on left side).
+   - In your job list press the green **Play** button (on right side).
 
 📧 Feedback
 ------------
