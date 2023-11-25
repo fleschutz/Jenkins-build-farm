@@ -20,7 +20,9 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
 5. **Install necessary Plugins**
    - Click on **'Select plugins to install'** and add these plugins:
    - 'Build Name and Description Setter'
-   - then click **Install** and wait until installation has finished.
+   - then click **Install** and wait until the installation has finished.
+  
+   NOTE: In case you miss something just visit: https://plugins.jenkins.io/ to discover more 1800 plugins to extend your Jenkins installation.
 
 6. **Create the admin account**
    - Enter the username, password (twice), and the full name.
