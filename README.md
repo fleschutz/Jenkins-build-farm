@@ -1,5 +1,5 @@
-Install Jenkins + Sample Pipeline
-=================================
+How to install Jenkins and a Pipeline
+=====================================
 
 This repo contains step-by-step instructions to install [Jenkins](https://jenkins.io) and your first sample [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for continuous integration and deployment (CI/CD).
 
