@@ -24,12 +24,20 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
   
    NOTE: In case you miss something just visit: https://plugins.jenkins.io/ to discover more 1800 plugins to extend your Jenkins installation. Sometimes a Jenkins restart is necessary after installing or refreshing plugins.
 
-6. **Create the admin account**
+6. **Create the Administrator Account**
    - Enter the username, password (twice), and the full name.
-
-7. **Enter your Jenkins URL**
-8. Click **'Create element'**, then choose 'Pipeline'.
-9. Click on 'Build now'
+   - Afterward, enter your Jenkins URL and log in.
+     
+8. **Create a Pipeline**
+   - Click on **+ Create element** (left side).
+   - Enter a job name (e.g. "sample-pipeline") and select **Pipeline**, then press the OK button.
+   - The job configuration is displayed now - scroll down and select the **Pipeline script**.
+   - As script enter the content of the **Jenkinsfile** (attached to this repository).
+   - Click the **Save** button.
+     
+9. **Start a Pipeline Job**
+   - Click on **Dashboard > ** (left side).
+   - In your job list press the green **Play** button (right side).
 
 📧 Feedback
 ------------
