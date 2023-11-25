@@ -23,8 +23,6 @@ This repo contains simple step-by-step instructions to install [Jenkins](https:/
    - Click on **'Select plugins to install'**
    - Add these plugins: **'Build Name and Description Setter'**
    - Click **Install** and wait until the installation has finished.
-  
-   NOTE: In case you miss something just visit: https://plugins.jenkins.io/ to discover more than 1800 plugins to extend your Jenkins installation. Sometimes a Jenkins restart is necessary after installing or refreshing plugins.
 
 7. **Create the Administrator Account**
    - Enter the username, password (twice), and the full name.
@@ -40,6 +38,14 @@ This repo contains simple step-by-step instructions to install [Jenkins](https:/
 9. **Start a Pipeline Job**
    - Click on **Dashboard** (on left side).
    - In your job list press the green **Play** button (on right side).
+  
+10. **Congratulations**
+    - Welcome to the Jenkins Universe, here is a list of useful information:
+    - Jenkins Homepage at: https://www.jenkins.io/
+    - Jenkins User Documentation at: https://www.jenkins.io/doc/
+    - Jenkins Handbook at: https://www.jenkins.io/doc/book/
+    - Discover 1800+ Jenkins plugins at: https://plugins.jenkins.io/ to extend your Jenkins installation.
+    - Find the Jenkins app for Android devices at: https://play.google.com/store/apps/details?id=com.mobilabsolutions.jenkins.app
 
 📧 Feedback
 ------------
