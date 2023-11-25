@@ -36,7 +36,7 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
    - Click the **Save** button.
      
 9. **Start a Pipeline Job**
-   - Click on **Dashboard > ** (left side).
+   - Click on **Dashboard** (left side).
    - In your job list press the green **Play** button (right side).
 
 📧 Feedback
