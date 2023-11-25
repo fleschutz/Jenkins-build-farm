@@ -1,7 +1,7 @@
 How to install Jenkins and a Pipeline
 =====================================
 
-This repo contains simple step-by-step instructions to install [Jenkins](https://jenkins.io) and your first sample [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for continuous integration and deployment (CI/CD).
+This repo contains simple step-by-step instructions to install [Jenkins](https://jenkins.io) and your first sample [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for CI/CD (Continuous Integration and Continuous Delivery/Deployment).
 
 1. **Install the Jenkins server**   
    - For Snaps execute: `sudo snap install --edge --classic jenkins`
