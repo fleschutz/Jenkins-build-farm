@@ -1,7 +1,7 @@
 Sample Pipeline 'Hello World' for Jenkins
 =========================================
 
-This repo contains step-by-step instructions to install [Jenkins](https://jenkins.io) and the very first [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for continuous integration and deployment (CI/CD).
+This repo contains step-by-step instructions to install [Jenkins](https://jenkins.io) and the very first sample [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for continuous integration and deployment (CI/CD).
 
 1. **Install Jenkins**
    - NOTE: Required is version 2.337 or newer (supporting Pipelines)
