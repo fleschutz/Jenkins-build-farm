@@ -1,7 +1,7 @@
-Sample Pipeline 'Hello World' for Jenkins
-=========================================
+Install Jenkins + Sample Pipeline
+=================================
 
-This repo contains step-by-step instructions to install [Jenkins](https://jenkins.io) and the very first sample [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for continuous integration and deployment (CI/CD).
+This repo contains step-by-step instructions to install [Jenkins](https://jenkins.io) and your first sample [Pipeline](https://www.jenkins.io/doc/book/pipeline/) for continuous integration and deployment (CI/CD).
 
 1. **Install the Jenkins server**   
    - For Snaps execute: `sudo snap install --edge --classic jenkins`
