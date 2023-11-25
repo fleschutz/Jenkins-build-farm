@@ -8,8 +8,13 @@ pipeline {
         }
         stage ('Build') {
             steps {
-                echo "Hello World!" > buildArtifact.txt
+                sh 'echo "Hello World!" > generatedFile.txt'
             }
+        }
+    }
+    post {
+        always {
+            archiveArtifacts artifacts: 'generatedFile.txt', onlyIfSuccessful: true
         }
     }
 }
