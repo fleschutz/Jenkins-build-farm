@@ -43,7 +43,7 @@ This repo contains simple step-by-step instructions to install [Jenkins](https:/
 
 📧 Feedback
 ------------
-Send your email feedback to: markus.fleschutz [at] gmail.com
+Anything missing or is incorrect? Don't be shy, just send your email feedback to: markus.fleschutz [at] gmail.com
 
 🤝 License & Copyright
 -----------------------
