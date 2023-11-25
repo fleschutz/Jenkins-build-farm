@@ -1,14 +1,14 @@
 pipeline {
     agent any
     stages {
-        stage ('Hello') {
+        stage ('Hi') {
             steps {
-                echo 'Hello'
+                echo "Hello World!"
             }
         }
-        stage ('World') {
+        stage ('Build') {
             steps {
-                echo 'World'
+                echo "Hello World!" > buildArtifact.txt
             }
         }
     }
