@@ -19,33 +19,33 @@ NOTE: Replace HOSTNAME by the computer name where Jenkins has been installed.
 
 🔓 Unlock Jenkins
 -----------------
-* Execute `sudo cat /DISPLAYED/PATH/TO/initialAdminPassword` to display the initial password saved by Jenkins.
-* Enter the initial password to unlock Jenkins.
+1. Execute `sudo cat /DISPLAYED/PATH/TO/initialAdminPassword` to display the initial password saved by Jenkins.
+2. Enter the initial password to unlock Jenkins.
 
 📌 Install necessary Plugins
 -----------------------------
-* Click on **'Select plugins to install'**
-* Add these plugins: **'Build Name and Description Setter'**
-* Click **Install** and wait until the installation has finished.
+1. Click on **'Select plugins to install'**
+2. Add these plugins: **'Build Name and Description Setter'**
+3. Click **Install** and wait until the installation has finished.
 
 🧙‍♂️ Create the Administrator Account
 ------------------------------------
-* Enter the username, password (twice), and the full name.
-* Afterward, enter your Jenkins URL and log in.
+1. Enter the username, password (twice), and the full name.
+2. Afterward, enter your Jenkins URL and log in.
      
 📝 Create a Pipeline
 ---------------------
-* In the dashboard click on: **+ Create element** (on left side).
-* Enter a job name (e.g. "sample-pipeline") and select **Pipeline**, then press the OK button.
-* The job configuration is displayed now - scroll down and select the **Pipeline script**.
-* As script enter the content of the **Jenkinsfile** (attached to this repository).
-* Click the **Save** button.
+1. In the dashboard click on: **+ Create element** (on left side).
+2. Enter a job name (e.g. "sample-pipeline") and select **Pipeline**, then press the OK button.
+3. The job configuration is displayed now - scroll down and select the **Pipeline script**.
+4. As script enter the content of the **Jenkinsfile** (attached to this repository).
+5. Click the **Save** button.
      
 ▶️ Start a Pipeline Job
 ------------------------
-* Click on **Dashboard** (on left side).
-* In your job list press the green **Play** button (on right side).
-* The **Stage View** visualizes the whole build process in a neat table.
+1. Click on **Dashboard** (on left side).
+2. In your job list press the green **Play** button (on right side).
+3. The **Stage View** visualizes the whole build process in a neat table.
   
 🏆 Congratulations
 -------------------
