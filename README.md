@@ -38,9 +38,10 @@ This repo contains simple step-by-step instructions to install [Jenkins](https:/
 9. **Start a Pipeline Job**
    - Click on **Dashboard** (on left side).
    - In your job list press the green **Play** button (on right side).
+   - The **Stage View** visualizes the whole build process in a neat table.
   
 10. **Congratulations**
-    - Welcome to the Jenkins Universe, here is a list of useful information:
+    - Welcome to the Jenkins ecosystem! The following links might be useful:
     - Jenkins Homepage at: https://www.jenkins.io/
     - Jenkins User Documentation at: https://www.jenkins.io/doc/
     - Jenkins Handbook at: https://www.jenkins.io/doc/book/
