@@ -3,12 +3,16 @@ pipeline {
     stages {
         stage ('Build') {
             steps {
-                echo "Hello World! Let's build something great ..."
+                echo "Hello World! Let's build something great..."
+            }
+        }
+        stage ('Test') {
+            steps {
+                echo "Our build needs to be tested..."
             }
         }
         stage ('Zip') {
             steps {
-                // sh 'echo "Hello World!" > generatedFile.txt'
                 sh 'zip -r sample-build.zip .'
             }
         }
