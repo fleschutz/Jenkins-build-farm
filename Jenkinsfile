@@ -4,6 +4,10 @@ pipeline {
         stage ('Build') {
             steps {
                 echo "Hello World! Let's build something great..."
+                script {
+                    currentBuild.displayName = "My sample Pipeline"
+                    currentBuild.description = "This is my first sample Pipeline."
+                }
             }
         }
         stage ('Test') {
