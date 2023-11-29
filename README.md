@@ -17,7 +17,7 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
 
 🔓 Unlock Jenkins
 -----------------
-1. Execute `sudo cat /DISPLAYED/PATH/TO/initialAdminPassword` to display the initial password saved by Jenkins.
+1. Execute `sudo cat /PATH/TO/initialAdminPassword` (replace /PATH/TO) to view the initial password saved by Jenkins during the installation.
 2. Enter the initial password to unlock Jenkins.
 
 📌 Install necessary Plugins
