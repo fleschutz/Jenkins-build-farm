@@ -5,8 +5,8 @@ This repo contains simple step-by-step instructions to install [Jenkins](https:/
 
 🔧 Install the Jenkins server
 ------------------------------
-* For Snaps execute: `sudo snap install --edge --classic jenkins`
-* For Docker execute: `docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11`
+* Execute for Docker: `docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11`
+* Execute for Linux Snaps: `sudo snap install --edge --classic jenkins`
 * Otherwise download and install it from: https://jenkins.io/download (it's available for Arch Linux, FreeBSD, Gentoo, macOS, OpenBSD, OpenIndiana Hipster, openSUSE, Red Hat/Fedora/Alma/Rocky/CentOS, Ubuntu/Debian, Windows)
 
 NOTE: Pipelines are supported in Jenkins version 2.337 or newer.
