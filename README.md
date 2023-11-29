@@ -13,9 +13,7 @@ NOTE: Pipelines are supported in Jenkins version 2.337 or newer.
 
 💻 Browse to your new Jenkins server
 -------------------------------------
-* Launch your Web browser and enter the URL: **http://HOSTNAME:8080**
-
-NOTE: Replace HOSTNAME by the computer name where Jenkins has been installed.
+Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOSTNAME by the computer name where Jenkins has been installed).
 
 🔓 Unlock Jenkins
 -----------------
