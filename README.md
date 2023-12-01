@@ -58,7 +58,6 @@ What's Next?
 ------------
 Add Pipelines for GitHub projects that already contain a Jenkinsfile. The following table lists some:
 
-|----------------|---------------------------------------------|
 | GitHub Project | URL                                         |
 |----------------|---------------------------------------------|
 | base256        | https://github.com/fleschutz/base256unicode |
