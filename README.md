@@ -56,7 +56,7 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
 
 What's Next?
 ------------
-Add Pipelines for GitHub projects that already contain a Jenkinsfile. The following table lists some:
+Add Pipelines for some open source GitHub projects that already contain a Jenkinsfile. The following table lists some:
 
 | GitHub Project | URL                                         |
 |----------------|---------------------------------------------|
