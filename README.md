@@ -47,7 +47,7 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
   
 🏆 Congratulations
 -------------------
-* Welcome to the Jenkins ecosystem! The following links might be useful:
+* Welcome to the Jenkins ecosystem! More background information can be found here:
 * Jenkins Homepage at: https://www.jenkins.io/
 * Jenkins User Documentation at: https://www.jenkins.io/doc/
 * Jenkins Handbook at: https://www.jenkins.io/doc/book/
