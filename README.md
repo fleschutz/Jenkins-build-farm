@@ -52,7 +52,17 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
 * Jenkins User Documentation at: https://www.jenkins.io/doc/
 * Jenkins Handbook at: https://www.jenkins.io/doc/book/
 * Discover 1800+ Jenkins plugins at: https://plugins.jenkins.io/ to extend your Jenkins installation.
-* Find the Jenkins app for Android devices at: https://play.google.com/store/apps/details?id=com.mobilabsolutions.jenkins.app
+* Trigger builds anytime anywhere by using the Jenkins app. Available for free for Android from: https://play.google.com/store/apps/details?id=com.mobilabsolutions.jenkins.app
+
+What's Next?
+------------
+Add Pipelines for GitHub projects that already contain a Jenkinsfile. The following table lists some:
+
+|----------------|---------------------------------------------|
+| GitHub Project | URL                                         |
+|----------------|---------------------------------------------|
+| base256        | https://github.com/fleschutz/base256unicode |
+
 
 📧 Feedback
 ------------
