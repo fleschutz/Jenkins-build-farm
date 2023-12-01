@@ -57,7 +57,7 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
 * Discover **1800+ plugins** to extend your Jenkins installation at: https://plugins.jenkins.io
 * Install the **Jenkins app** on your smartphone to trigger builds anytime anywhere. It's available for free at: https://play.google.com/store/apps/details?id=com.mobilabsolutions.jenkins.app
 * Add more machines for a **distributed build environment**. More information at: https://www.jenkins.io/doc/book/using/using-agents
-* Add more sample Pipelines using GitHub projects with a Jenkinsfile. The following table lists some:
+* Add **more Pipelines** using GitHub projects with a Jenkinsfile. The following table lists some:
 
 | GitHub Project | URL                                         |
 |----------------|---------------------------------------------|
