@@ -39,8 +39,8 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
 4. As script enter the content of the **Jenkinsfile** (attached to this repository).
 5. Click the **Save** button.
      
-▶️ Start a Pipeline Job
-------------------------
+▶️ Start the Pipeline Job
+-------------------------
 1. Click on **Dashboard** (on left side).
 2. In your job list press the green **Play** button (on right side).
 3. The **Stage View** visualizes the whole build process in a neat table.
