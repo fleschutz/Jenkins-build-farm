@@ -3,11 +3,8 @@ pipeline {
     stages {
         stage ('Build') {
             steps {
-                echo "Hello World! Let's build something great..."
-                script {
-                    currentBuild.displayName = "My sample Pipeline"
-                    currentBuild.description = "This is my first sample Pipeline."
-                }
+                echo "Pulled from ${env.GIT_URL}, branch ${env.GIT_BRANCH}, commit {$env.GIT_COMMIT} ..."
+                echo "Starting build number ${env.BUILD_NUMBER} ..."
             }
         }
         stage ('Test') {
@@ -20,10 +17,10 @@ pipeline {
                 sh 'zip -r sample-build.zip .'
             }
         }
-    }
-    post {
-        always {
-            archiveArtifacts artifacts: 'sample-build.zip', fingerprint: true, onlyIfSuccessful: true
+        stage ('Archive') {
+            steps {
+                archiveArtifacts artifacts: 'sample-build.zip', fingerprint: true, onlyIfSuccessful: true
+            }
         }
     }
 }
