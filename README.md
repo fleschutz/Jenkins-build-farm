@@ -59,9 +59,10 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
 * Add more machines for a **distributed build environment**. More information at: https://www.jenkins.io/doc/book/using/using-agents
 * Add **more Pipelines** using GitHub projects with a Jenkinsfile. The following table lists some:
 
-| GitHub Project | URL                                         |
-|----------------|---------------------------------------------|
-| base256        | https://github.com/fleschutz/base256unicode |
+| GitHub Project | URL                                         | Path to Jenkinsfile |
+|----------------|---------------------------------------------|---------------------|
+| base256        | https://github.com/fleschutz/base256unicode | ./Jenkinsfile       |
+| PowerShell     | https://github.com/fleschutz/PowerShell     | ./data/Jenkinsfile  |
 
 
 📧 Feedback
