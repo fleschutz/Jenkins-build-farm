@@ -61,9 +61,9 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
 
 | GitHub Project | URL                                         | Path to Jenkinsfile |
 |----------------|---------------------------------------------|---------------------|
-| base256        | https://github.com/fleschutz/base256unicode | ./Jenkinsfile       |
-| CWTS           | https://github.com/fleschutz/CWTS           | ./Jenkinsfile       |
-| PowerShell     | https://github.com/fleschutz/PowerShell     | ./data/Jenkinsfile  |
+| base256        | https://github.com/fleschutz/base256unicode | Jenkinsfile         |
+| CWTS           | https://github.com/fleschutz/CWTS           | Jenkinsfile         |
+| PowerShell     | https://github.com/fleschutz/PowerShell     | data/Jenkinsfile    |
 
 
 📧 Feedback
