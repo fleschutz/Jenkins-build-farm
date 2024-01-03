@@ -26,8 +26,8 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
 2. Add these plugins: **'Build Name and Description Setter'**
 3. Click **Install** and wait until the installation has finished.
 
-🧙‍♂️ Create the Administrator Account
-------------------------------------
+🧙‍♂️ Create the Admin Account
+---------------------------
 1. Enter the username, password (twice), and the full name.
 2. Afterward, enter your Jenkins URL and log in.
      
