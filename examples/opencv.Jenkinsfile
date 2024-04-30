@@ -15,12 +15,11 @@ pipeline {
         stage ('Cleanup') {
             steps {
                 sh 'git clean -xdf && git status'
-	        }
 	    }
+	}
         stage ('Build') {
             steps {
-		        echo "Starting build #${env.BUILD_NUMBER} on ${env.NODE_NAME} node ..."
-		        sh 'cmake -BMyBuild && cmake --build MyBuild'
+	        sh 'cmake -BMyBuild && cmake --build MyBuild'
             }
         }
     }
