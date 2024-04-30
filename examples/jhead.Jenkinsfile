@@ -1,6 +1,6 @@
 // Jenkinsfile for GitHub project 'jhead'
 // --------------------------------------
-// Description: Nightly builds of head from https://github.com/Matthias-Wandel/jhead (master branch).
+// Description: Nightly builds of jhead (master branch) from https://github.com/Matthias-Wandel/jhead.
 // Log Rotation: 10 builds maximum recommended
 // GitHub project: https://github.com/Matthias-Wandel/jhead/
 // Timeplan: @midnight
