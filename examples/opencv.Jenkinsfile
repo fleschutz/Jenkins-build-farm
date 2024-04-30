@@ -1,3 +1,4 @@
+// Pipeline script for OpenCV
 pipeline {
     agent any  
     stages {

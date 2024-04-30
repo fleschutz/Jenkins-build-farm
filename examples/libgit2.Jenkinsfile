@@ -1,3 +1,4 @@
+// Pipeline script for libgit2
 pipeline {
     agent any  
     stages {
@@ -19,11 +20,10 @@ pipeline {
 	    }
         stage ('Build') {
             steps {
-		        echo "Starting build #${env.BUILD_NUMBER} on ${env.NODE_NAME} node ..."
                 sh 'cmake . && make'
             }
         }
-        stage ('Test') {
+        stage ('Tests') {
             steps {
                 sh 'ctest -V'
             }

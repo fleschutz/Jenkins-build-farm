@@ -15,8 +15,8 @@ pipeline {
         stage ('Cleanup') {
             steps {
                 sh 'git clean -xdf && git status'
-	        }
 	    }
+	}
         stage ('Build') {
             steps {
                 sh 'cmake -Bbuild-cmake && cmake --build build-cmake'

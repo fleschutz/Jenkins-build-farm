@@ -1,5 +1,5 @@
-// Jenkinsfile for GitHub project 'jhead'
-// --------------------------------------
+// Pipeline script for jhead
+// -------------------------
 // Description: Nightly builds of jhead (master branch) from https://github.com/Matthias-Wandel/jhead.
 // Log Rotation: 10 builds maximum recommended
 // GitHub project: https://github.com/Matthias-Wandel/jhead/
@@ -26,11 +26,10 @@ pipeline {
 	}
         stage ('Build') {
             steps {
-	        echo "Starting build #${env.BUILD_NUMBER} on ${env.NODE_NAME} node ..."
                 sh 'make'
             }
         }
-        stage ('Test') {
+        stage ('Tests') {
             steps {
                 sh './jhead -h || true'
             }
