@@ -68,7 +68,7 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
 
 📧 Feedback
 ------------
-Anything missing or is incorrect? Don't be shy, just send your email feedback to: markus.fleschutz [at] gmail.com
+Anything missing or needs to be improved? Don't be shy, just send your email feedback to: markus.fleschutz [at] gmail.com
 
 🤝 License & Copyright
 -----------------------
