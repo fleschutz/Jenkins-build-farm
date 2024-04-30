@@ -9,7 +9,7 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
 * Execute for Linux Snaps: `sudo snap install --classic jenkins`
 * Otherwise, download and install it from: https://jenkins.io/download (available for Arch Linux, FreeBSD, Gentoo, macOS, OpenBSD, OpenIndiana Hipster, openSUSE, Red Hat/Fedora/Alma/Rocky/CentOS, Ubuntu/Debian, Windows)
 
-NOTE: Pipelines are supported in Jenkins version 2.337 or newer.
+**NOTE:** Pipelines are supported in Jenkins version 2.337 or newer.
 
 💻 Browse to your new Jenkins server
 -------------------------------------
