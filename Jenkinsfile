@@ -4,8 +4,7 @@ pipeline {
         stage ('Cleanup') {
             steps {
                 echo "Pulled from ${env.GIT_URL}, branch ${env.GIT_BRANCH}, commit {$env.GIT_COMMIT} ..."
-                sh 'git clean -d --force'
-                sh 'git status'
+                sh 'git clean -xdf && git status'
             }
         }
         stage ('Build') {
