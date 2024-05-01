@@ -1,4 +1,4 @@
-// Pipeline script for curl
+// Pipeline script for nightly builds of curl.
 pipeline {
     agent any  
     stages {
