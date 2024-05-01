@@ -7,7 +7,7 @@ pipeline {
                 git url: 'https://github.com/curl/curl', branch: 'master'
             }
         }
-        stage ('Build Namet') {
+        stage ('Build Name') {
             steps {
                 script {
                     LATEST_TAG_COMMIT = sh ( script: 'git rev-list --tags --max-count=1', returnStdout: true ).trim()
