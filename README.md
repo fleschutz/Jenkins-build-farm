@@ -55,11 +55,10 @@ You're done. Welcome to the Jenkins ecosystem! More background information can b
 
 🚀 What's Next?
 ----------------
-* Discover **1800+ plugins** to extend your Jenkins installation at: https://plugins.jenkins.io
-* Install the **Jenkins app** on your smartphone to trigger builds anytime anywhere. It's available for free at: https://play.google.com/store/apps/details?id=com.mobilabsolutions.jenkins.app
-* Add more machines for a **distributed build environment** (build farm). More information at: https://www.jenkins.io/doc/book/using/using-agents
-* Add more **Pipelines for GitHub projects**. See the 8 sample Pipeline scripts in subfolder 📂[examples](examples/).
-
+* **Discover 1800+ plugins** to extend your Jenkins installation at: https://plugins.jenkins.io
+* **Install the Jenkins app** on your smartphone to trigger builds anytime anywhere. It's available for free at: https://play.google.com/store/apps/details?id=com.mobilabsolutions.jenkins.app
+* **Add more machines** for a distributed build environment (build farm). More information at: https://www.jenkins.io/doc/book/using/using-agents
+* **Add more Pipeline jobs** by using GitHub projects. See the 8 sample Pipeline scripts in subfolder 📂[examples](examples/).
 
 📧 Feedback
 ------------
