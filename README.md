@@ -1,5 +1,5 @@
-How to install Jenkins and a Pipeline
-=====================================
+How to install Jenkins and Pipelines
+====================================
 
 This repo contains step-by-step instructions to install [Jenkins](https://jenkins.io) and sample [Pipelines](https://www.jenkins.io/doc/book/pipeline/) for CI/CD (Continuous Integration and Continuous Delivery/Deployment).
 
