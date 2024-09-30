@@ -1,4 +1,4 @@
-// Pipeline script for nightly builds of jhead
+// Jenkins Pipeline script to build and test jhead
 pipeline {
     agent any 
     stages {

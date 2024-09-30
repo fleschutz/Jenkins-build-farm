@@ -1,4 +1,4 @@
-// Pipeline script for nightly builds of libgit2.
+// Jenkins Pipeline script to build and test libgit2.
 pipeline {
     agent any  
     stages {

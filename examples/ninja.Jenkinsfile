@@ -1,4 +1,4 @@
-// Pipeline script for nightly builds of ninja
+// Jenkins Pipeline script to build and test ninja
 pipeline {
     agent any  
     stages {

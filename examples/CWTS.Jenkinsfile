@@ -1,4 +1,4 @@
-// Pipeline script for CWTS
+// Jenkins Pipeline script to build CWTS
 pipeline {
     agent any  
     stages {

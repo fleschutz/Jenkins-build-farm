@@ -1,5 +1,6 @@
+// Jenkins Pipeline sample script to build and test something 
 pipeline {
-    agent any  // may run on any Jenkins node
+    agent any 
     stages {
 	stage ('Build Name') {
             steps {
@@ -19,11 +20,13 @@ pipeline {
         stage ('Build') {
             steps {
 		echo "Starting build #${env.BUILD_NUMBER} on ${env.NODE_NAME} node ..."
+		// e.g. ./configure && make
             }
         }
         stage ('Tests') {
             steps {
-                echo "Our build needs to be tested..."
+                echo "Starting tests..."
+		// e.g. make tests
             }
         }
         stage ('Zip') {

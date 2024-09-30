@@ -1,4 +1,4 @@
-// Pipeline script for nightly builds of smartmontools
+// Jenkins Pipeline script to build smartmontools
 pipeline {
     agent any  
     stages {
