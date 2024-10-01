@@ -54,8 +54,9 @@ You're done. Welcome to the Jenkins ecosystem! More background information can b
 
 🚀 What's Next?
 ----------------
-* **Discover 1800+ plugins** to extend your Jenkins installation at: https://plugins.jenkins.io
-* **Install the Jenkins app** on your smartphone to trigger builds anytime anywhere. It's available for free at: https://play.google.com/store/apps/details?id=com.mobilabsolutions.jenkins.app
+* **Use the Jenkins app** on your smartphone to trigger and watch builds anytime anywhere. It's available for free at: https://play.google.com/store/apps/details?id=com.mobilabsolutions.jenkins.app
+* **Add more user accounts:** click *Manage Jenkins &gt; Users* to create and manage user accounts. 
+* **Add more plugins:** visit the *Jenkins Plugin Index* at: https://plugins.jenkins.io and discover 1900+ plugins.
 * **Add more machines** for a distributed build environment (build farm). More information at: https://www.jenkins.io/doc/book/using/using-agents
 * **Add more Pipeline jobs** by using GitHub projects. See the 8 sample Pipeline scripts in subfolder 📂[examples](examples/).
 
