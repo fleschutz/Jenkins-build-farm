@@ -56,7 +56,7 @@ You're done. Welcome to the Jenkins ecosystem! More background information can b
 * **Add more plugins:** visit the *Jenkins Plugins Index* at: https://plugins.jenkins.io and discover 1900+ plugins.
 * **Add more machines** for a build farm. More information at: https://www.jenkins.io/doc/book/using/using-agents
 * **Add more jobs:** see the sample Pipeline scripts in subfolder 📂[examples](examples/) to build GitHub projects.
-* **Back up your Jenkins:** just zip the Jenkins home folder (at: ~/.jenkins or at: /var/snap/jenkins) and copy it to another disk.
+* **Back up Jenkins:** just zip the Jenkins home folder (at: ~/.jenkins or at: /var/snap/jenkins) and copy it to another disk.
 
 📧 Feedback
 ------------
