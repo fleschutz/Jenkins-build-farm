@@ -10,27 +10,24 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
 * Otherwise, download and install it from: https://jenkins.io/download (available for Arch Linux, FreeBSD, Gentoo, macOS, OpenBSD, OpenIndiana Hipster, openSUSE, Red Hat/Fedora/Alma/Rocky/CentOS, Ubuntu/Debian, Windows)
 * **NOTE:** Pipelines are supported in Jenkins version 2.337 or newer.
 
-💻 2. Browse to your new Jenkins server
-----------------------------------------
-Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOSTNAME by the computer name where Jenkins has been installed).
+💻 2. Browse to your new Jenkins server and unlock it
+------------------------------------------------------
+1. Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOSTNAME by the computer name where Jenkins has been installed).
+2. Execute `sudo cat /PATH/TO/initialAdminPassword` (replace /PATH/TO) to view the initial password saved by Jenkins during the installation.
+3. Enter the initial password to unlock Jenkins.
 
-🔓 3. Unlock Jenkins
----------------------
-1. Execute `sudo cat /PATH/TO/initialAdminPassword` (replace /PATH/TO) to view the initial password saved by Jenkins during the installation.
-2. Enter the initial password to unlock Jenkins.
-
-📌 4. Install necessary Plugins
+📌 3. Install necessary Plugins
 --------------------------------
 1. Click on **'Select plugins to install'**
 2. Add these plugins: **'Build Name and Description Setter'**
 3. Click **Install** and wait until the installation has finished.
 
-🧙‍♂️ 5. Create an Admin Account
+🧙‍♂️ 4. Create an Admin Account
 ------------------------------
 1. Enter the username, password (twice), and the full name.
 2. Afterward, enter your Jenkins URL and log in.
      
-📝 6. Create a Pipeline
+📝 5. Create a Pipeline
 ------------------------
 1. In the dashboard click on: **+ Create element** (on left side).
 2. Enter a job name (e.g. "sample-pipeline") and select **Pipeline**, then press the OK button.
@@ -38,7 +35,7 @@ Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOS
 4. As script enter the content of the **Jenkinsfile** (attached to this repository).
 5. Click the **Save** button.
      
-▶️ 7. Start the Pipeline Job
+▶️ 6. Start the Pipeline Job
 -----------------------------
 1. Click on **Dashboard** (on left side).
 2. In your job list press the green **Play** button (on right side).
