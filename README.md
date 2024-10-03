@@ -32,7 +32,7 @@ This repo contains step-by-step instructions to install [Jenkins](https://jenkin
 1. In the dashboard click on: **+ Create element** (on left side).
 2. Enter a job name (e.g. "sample-pipeline") and select **Pipeline**, then press the OK button.
 3. The job configuration is displayed now - scroll down and select the **Pipeline script**.
-4. As script enter the content of the **Jenkinsfile** (attached to this repository).
+4. As script enter the content of the **Jenkinsfiles/sample.txt** (attached to this repository).
 5. Click the **Save** button.
      
 ▶️ 6. Start the Pipeline Job
