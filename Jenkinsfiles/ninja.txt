@@ -1,4 +1,4 @@
-// Jenkins Pipeline script to build and test ninja
+// Jenkins Pipeline script to build GitHub project 'ninja'.
 pipeline {
     agent any  
     stages {

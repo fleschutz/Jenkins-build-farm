@@ -1,4 +1,4 @@
-// Jenkins Pipeline script to build and test TinyCC 
+// Jenkins Pipeline script to build GitHub project 'TinyCC'.
 pipeline {
     agent any  
     stages {
@@ -20,7 +20,7 @@ pipeline {
         stage ('Cleanup') {
             steps {
                 sh 'git clean -xdf && git status'
-	        }
+            }
 	}
         stage ('Build') {
             steps {

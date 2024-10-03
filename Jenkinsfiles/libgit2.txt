@@ -1,4 +1,4 @@
-// Jenkins Pipeline script to build and test libgit2.
+// Jenkins Pipeline script to build GitHub project 'libgit2'.
 pipeline {
     agent any  
     stages {

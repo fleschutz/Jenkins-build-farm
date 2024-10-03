@@ -1,4 +1,4 @@
-// Jenkins Pipeline script for nightly builds of curl.
+// Jenkins Pipeline script to build GitHub project 'curl'.
 pipeline {
     agent any  
     stages {

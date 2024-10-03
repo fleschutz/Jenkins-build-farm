@@ -1,4 +1,4 @@
-// Jenkins Pipeline script to build CWTS
+// Jenkins Pipeline script to build GitHub project 'CWTS'.
 pipeline {
     agent any  
     stages {
@@ -20,11 +20,11 @@ pipeline {
         stage ('Cleanup') {
             steps {
                 sh 'git clean -xdf && git status'
-	        }
-	    }
+            }
+        }
         stage ('Build') {
             steps {
-		        sh 'cmake . && make -k || true'
+                sh 'cmake . && make -k || true'
             }
         }
     }

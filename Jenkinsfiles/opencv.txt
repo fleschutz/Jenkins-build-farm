@@ -1,4 +1,4 @@
-// Jenkins Pipeline script to build OpenCV
+// Jenkins Pipeline script to build GitHub project 'OpenCV'.
 pipeline {
     agent any  
     stages {

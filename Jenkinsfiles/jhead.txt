@@ -1,4 +1,4 @@
-// Jenkins Pipeline script to build and test jhead
+// Jenkins Pipeline script to build GitHub project 'jhead'.
 pipeline {
     agent any 
     stages {
