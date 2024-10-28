@@ -1,7 +1,7 @@
 Set up a Jenkins Build Farm
 ===========================
 
-This repo contains step-by-step instructions to install [Jenkins](https://jenkins.io) and sample [Pipelines](https://www.jenkins.io/doc/book/pipeline/) for CI/CD (Continuous Integration and Continuous Delivery/Deployment).
+This repo contains step-by-step instructions how to install [Jenkins](https://jenkins.io) and sample [Pipelines](https://www.jenkins.io/doc/book/pipeline/) for CI/CD (Continuous Integration and Continuous Delivery/Deployment).
 
 🔧 1. Install a Jenkins Server
 -------------------------------
