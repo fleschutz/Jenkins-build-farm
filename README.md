@@ -51,12 +51,12 @@ You're all set. Welcome to the Jenkins ecosystem! More background information ca
 
 🚀 What's Next?
 ----------------
-* **Use the Jenkins app** on your smartphone to trigger and watch builds anytime anywhere. It's available for free at: https://play.google.com/store/apps/details?id=com.mobilabsolutions.jenkins.app
+* **Install the Jenkins app** on your smartphone to trigger and watch builds anytime anywhere. It's available for free at: https://play.google.com/store/apps/details?id=com.mobilabsolutions.jenkins.app
 * **Add jobs:** see the sample Pipeline scripts in subfolder 📂[Jenkinsfiles](Jenkinsfiles/) to build GitHub projects.
 * **Add user accounts:** click *Manage Jenkins &gt; Users* to create and manage user accounts. 
 * **Add plugins:** discover more than 2000(!) Jenkins plugins at: https://plugins.jenkins.io
 * **Add machines** (called 'nodes') to extend your build farm. More information at: https://www.jenkins.io/doc/book/using/using-agents
-* **Back up Jenkins:** just zip the Jenkins home folder (at: ~/.jenkins or at: /var/snap/jenkins) and copy it to another disk.
+* **Perform a backup:** just zip the Jenkins home folder (at: /var/snap/jenkins or: .jenkins in your home directory) and copy it to another disk.
 
 📧 Feedback
 ------------
