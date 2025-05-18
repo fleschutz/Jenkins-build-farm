@@ -1,10 +1,10 @@
-Set up a Jenkins Build Farm
-===========================
+Set up your own Jenkins Build Farm
+==================================
 
 This repo contains step-by-step instructions how to install [Jenkins](https://jenkins.io) and sample [Pipelines](https://www.jenkins.io/doc/book/pipeline/) for CI/CD (Continuous Integration and Continuous Delivery/Deployment).
 
-🔧 1. Install a Jenkins Server
--------------------------------
+🔧 1. Install the Jenkins Server
+---------------------------------
 * Execute for Docker: `docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11`
 * Execute for Linux Snaps: `sudo snap install --classic jenkins`
 * Otherwise, download and install it from: https://jenkins.io/download (available for Arch Linux, FreeBSD, Gentoo, macOS, OpenBSD, OpenIndiana Hipster, openSUSE, Red Hat/Fedora/Alma/Rocky/CentOS, Ubuntu/Debian, Windows)
