@@ -1,10 +1,10 @@
-// Jenkins Pipeline script to build GitHub project 'Base256U'.
+// Jenkins Pipeline script to build GitHub project 'base256U'.
 pipeline {
     agent any  
     stages {
         stage ('Checkout') {
             steps {
-                git url: 'https://github.com/fleschutz/Base256U', branch: 'main'
+                git url: 'https://github.com/fleschutz/base256U', branch: 'main'
             }
         }
         stage ('Build Name') {
@@ -29,17 +29,17 @@ pipeline {
         }
         stage ('Test') {
             steps {
-                sh './base256'
+                sh './base256U'
             }
         }
         stage ('Zip') {
             steps {
-                sh 'zip base256.zip README.md LICENSE base256'
+                sh 'zip base256U.zip README.md LICENSE base256U'
             }
         }
 	stage ('Archive') {
             steps {
-                archiveArtifacts artifacts: 'base256.zip', fingerprint: true, onlyIfSuccessful: true
+                archiveArtifacts artifacts: 'base256U.zip', fingerprint: true, onlyIfSuccessful: true
             }
 	}
     }
