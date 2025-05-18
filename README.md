@@ -10,8 +10,8 @@ This repo contains step-by-step instructions how to install [Jenkins](https://je
 * Otherwise, download and install it from: https://jenkins.io/download (available for Arch Linux, FreeBSD, Gentoo, macOS, OpenBSD, OpenIndiana Hipster, openSUSE, Red Hat/Fedora/Alma/Rocky/CentOS, Ubuntu/Debian, Windows)
 * **NOTE:** Pipelines are supported in Jenkins version 2.337 or newer.
 
-💻 2. Browse to your new Jenkins Server and unlock it
-------------------------------------------------------
+💻 2. Unlock the Jenkins Server
+--------------------------------
 1. Launch your Web browser and enter the URL: **http://HOSTNAME:8080** (replace HOSTNAME by the computer name where Jenkins has been installed).
 2. Execute `sudo cat /PATH/TO/initialAdminPassword` (replace /PATH/TO) to view the initial password saved by Jenkins during the installation.
 3. Enter the initial password to unlock Jenkins.
