@@ -21,21 +21,21 @@ This repo contains step-by-step instructions how to install [Jenkins](https://je
 2. Add these plugins: **'Build Name and Description Setter'**
 3. Click **Install** and wait until the installation has finished.
 
-🧙‍♂️ 4. Create an Administrator
------------------------------
+🧙‍♂️ 4. Create an Administrator Account
+--------------------------------------
 1. Enter the username, password (twice), and the full name.
 2. Afterward, enter your Jenkins URL and log in.
      
-📝 5. Create a Pipeline Job
----------------------------
+📝 5. Create a Job
+-------------------
 1. In the dashboard click on: **+ Create element** (on left side).
 2. Enter a job name (e.g. "sample-pipeline") and select **Pipeline**, then press the OK button.
 3. The job configuration is displayed now - scroll down and select the **Pipeline script**.
 4. As script copy&paste the content of the [Jenkinsfiles/sample.txt](Jenkinsfiles/sample.txt).
 5. Click the **Save** button.
      
-▶️ 6. Start the Pipeline Job
------------------------------
+▶️ 6. Start the Job
+--------------------
 1. Click on **Dashboard** (on left side).
 2. In your job list press the green **Play** button (on right side).
 3. The **Stage View** visualizes the whole build process in a neat table.
@@ -55,6 +55,7 @@ You're all set. Welcome to the Jenkins ecosystem! More background information ca
 * **Add user accounts:** click *Manage Jenkins &gt; Users* to create and manage user accounts. 
 * **Add plugins:** discover more than 2000(!) Jenkins plugins at: https://plugins.jenkins.io
 * **Add machines** (called 'nodes') to extend your build farm. More information at: https://www.jenkins.io/doc/book/using/using-agents
+* **Add more automation**, e.g. nightly builds and tests.
 * **Perform a backup:** just zip the Jenkins home folder (at: /var/snap/jenkins or: .jenkins in your home directory) and copy it to another disk.
 
 📧 Feedback
