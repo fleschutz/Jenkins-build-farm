@@ -62,6 +62,6 @@ You're all set. Welcome to the Jenkins ecosystem! More background information ca
 ------------
 Anything missing or needs to be improved? Don't be shy, just send your email feedback to: markus.fleschutz [at] gmail.com
 
-🤝 License & Copyright
+📜 License & Copyright
 -----------------------
 This open source project is licensed under the CC0 license. All trademarks are the property of their respective owners.
