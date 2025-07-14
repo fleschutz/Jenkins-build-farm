@@ -58,9 +58,12 @@ You're all set. Welcome to the Jenkins ecosystem! More background information ca
 * **Add more automation**, e.g. nightly builds and tests.
 * **Perform a backup:** just zip the Jenkins home folder (at: /var/snap/jenkins or: .jenkins in your home directory) and copy it to another disk.
 
-📧 Feedback
-------------
-Anything missing or needs to be improved? Don't be shy, just send your email feedback to: markus.fleschutz [at] gmail.com
+🤝 Contributing
+----------------
+* Contributions, suggestions, and improvements are welcome!
+* Open an Issue if you encounter bugs or have feature ideas.
+* Create a Pull Request if you'd like to improve something.
+* Or just send your feedback to: markus.fleschutz [at] gmail.com
 
 📜 License & Copyright
 -----------------------
